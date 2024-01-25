@@ -1,0 +1,17 @@
+div{
+   border: 10px groove coral;
+   margin: 24px;
+   padding: 24px 50px;
+   background-color:lightcyan; 
+}
+p {
+    border: 20px dashed blue;
+    margin: 60px;
+    padding:48px 60px;
+    background-color: cornflowerblue
+}
+a {
+    background-color: blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}
