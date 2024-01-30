@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -9,40 +10,95 @@
 #license{
     border: 3px solid black;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 24px;
     width: 700px;
-    padding:20px;
+    padding:24px;
 }
-h1{
-    border:3px solid black;
+h1 {
+   color:navy;
+   font-size: 60px;
+   margin:0px;  
 }
-#id-and-expiration div{
-    border: 2px solid red;
-    display:inline-block;
-    width=20%;
-} 
-#id-and-expiration{
-    border: 2px solid green;
-}
-#address{
-    border: 2px solid blue;
-    display:inline-block;
-    width: 20%;
-}
-#small-pic{
-    border: 2px solid black;
-    display:inline-block
-}
-#data-fields {
-    border:2px solid red;
-    Display: inline-block;
-}
-#data-left, #data-right, #signature{
-    border: 2px solid black;
-}
-#data_left, #data-right {
+#left-side,
+#right-side {
     display: inline-block;
 }
+#left-side{
+    width: 65%;
+}
 #right-side{
-margin-inline-start: 80%
+    width: 34%;
+}
+#id-and-expiration div{
+    display:inline-block;
+    color:navy;
+    margin:8px;
+} 
+#address {
+    font-weight: bold;
+    font-size: 18px;
+    margin:9px;
+}
+#small-pic img{
+width: 90px;
+opacity: 0.5;
+}
+
+#data-fields, #small-pic {
+    Display: inline-block;
+}
+
+#data-left, #data-right {
+    display: inline-block;
+    color:navy;
+    margin: 8px;
+}
+#right-side img{
+width: 100%
+}
+#donor-and-real-id div {
+    display: inline-block;
+    text-align: right;
+}
+h4{
+    background-color: blue;
+    color:aliceblue;
+    text-align: center;
+    font-size: 25px;
+    margin:0px;
+    padding:8px;
+}
+#signature{
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    font-family:'Ms Madi', cursive;
+}
+#id-and-expiration span {
+    color: #9900ff;
+}
+#data-left span, #data-right span{
+    color: #9900ff;
+    font-weight: bold;
+}
+
+#donor-and-real-id {
+    padding: 4px;
+    text-align: center;
+}
+#donor{
+    color:red;
+    font-weight: bold;
+    padding-right: 24px;
+}
+#real-id{
+    display:inline-block;
+    background-color: gold;
+    font-size:24px;
+    text-align: center;
+    padding:4px;
+    border-radius: 50%;
+}
+#real-id i {
+    color:white;
 }
