@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+H1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f2dcb5;
+    font-size:60px;
+}
+div span{
+    color: #f2dcb5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    Margin: 0px auto;
+}
+body{
+    margin:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.single-column{
+    width: 50%;
+    max-width:500px;
+    min-width:500px;
+    margin: 0px auto;
+}
+.First-container{
+    background-color: #78287c;
+    padding:48px;
+}
