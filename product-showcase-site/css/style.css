@@ -8,11 +8,11 @@ H1{
     color: #f2dcb5;
     font-size:60px;
 }
-div span{
+div p span{
     color: #f2dcb5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    Margin: 0px auto;
+    Margin: 0 px auto;
 }
 body{
     margin:0px;
@@ -27,4 +27,29 @@ body{
 .First-container{
     background-color: #78287c;
     padding:48px;
+}
+.Second-container{
+    background-color: #f2dcb5;
+    padding:60px;
+}
+    
+.Second-container H1{
+     text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#78287c;
+ }
+.Second-container div p span{
+      color:#78287c;
+       font-size: 40px;
+       padding:30px
+ }
+.Third-container h1{
+    color:#f2dcb5;
+    Font:60px;
+    Font-family:Georgia;
+    text-align:center;
+}
+.Third-container{
+    background-color: brown;
+    padding:1%
 }
