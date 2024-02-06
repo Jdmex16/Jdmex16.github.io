@@ -1,9 +1,8 @@
-*{
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-color: thistle;
 }
 #grid-layout{
     display: grid;
@@ -18,18 +17,23 @@ body{
 }
 #header a{
     text-decoration:none;
+    font-family: 'Luckiest Guy', cursive;;
+    font-weight: bold;
 }
 #header #me {
     color:black;
 }
 #header #tube{
     color: white;
-    background-color: brown;
+    background-color: purple;
     padding: 4px;
     border-radius: 12px;
 }
 #sidebar{
     grid-area: sidebar;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 #sidebar ul {
@@ -44,10 +48,11 @@ body{
     color:#111;
     display: block;
     padding: 12px;
+    color: white;
 }
 
 #sidebar ul a:hover {
-    background-color: coral;
+    background-color: blue;
     border-radius: 12px;
 }
 
@@ -74,6 +79,10 @@ body{
     color: #111;
     display: block;
 }
+.video-details{
+    font-weight: bold;
+    font-family:f;
+}
 
 .metube-item h4 a:hover{
     text-decoration: underline;
@@ -88,6 +97,36 @@ body{
 .metube-item#m1 .thumbnail{
     background-image: url(
         ../images/G1.jpg
+    );
+    background-size: cover;
+}
+.metube-item#m2 .thumbnail{
+    background-image: url(
+        ../images/G2.jpg
+    );
+    background-size: cover;
+}
+.metube-item#m3 .thumbnail{
+    background-image: url(
+        ../images/G3.jpg
+    );
+    background-size: cover;
+}
+.metube-item#m4 .thumbnail{
+    background-image: url(
+        ../images/G4.jpg
+    );
+    background-size: cover;
+}
+.metube-item#m5 .thumbnail{
+    background-image: url(
+        ../images/G5.jpg
+    );
+    background-size: cover;
+}
+.metube-item#m6 .thumbnail{
+    background-image: url(
+        ../images/G6.jpg
     );
     background-size: cover;
 }
