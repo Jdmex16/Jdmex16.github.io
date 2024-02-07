@@ -4,7 +4,7 @@
   body{
       margin: 0px;
       Font-family: sans-serif;
-      background-color: skyblue;
+      background-color: white;
   }
   
   #grid-layout{
@@ -44,7 +44,7 @@
   #main-content{
       background-color: white;
       grid-area: content;
-      border: solid 2px black;
+      border: solid 2px skyblue;
       margin: 20px -12px;
       padding: 20px 20px;
   }
