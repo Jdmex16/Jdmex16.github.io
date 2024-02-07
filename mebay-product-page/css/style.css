@@ -14,14 +14,16 @@ body {
 }
 
 #column-1 {
+    text-align: center;
 }
 
 #column-2 { 
     color: black;
+    text-align: center;
 }
 
 #column-3 {
-    
+        text-align: center;
 }
 
 #header #me {
@@ -49,14 +51,18 @@ body {
 }
 
 #buy {
-     border: solid 2px blue;
+     border: solid 2px black;
      text-align: center;
      color: white;
      background-color: blue;
+     margin: 0px 70px;
+     border-radius: 50px;
 }
 #wish {
     border: solid 2px black;
     text-align: center;
+    margin: 0px 70px;
+    border-radius: 50px;
 }
 
 #add{
@@ -64,6 +70,8 @@ body {
     text-align: center;
     background-color: navy;
     color: white;
+    margin: 0px 70px;
+    border-radius: 50px;
 }
 
 #save{
@@ -76,4 +84,11 @@ body {
     margin: 17px;
     padding: 10px;
 }
+
+#save ul{
+    list-style-type: none;
 }
+#links ul{
+    list-style-type: none;
+}
+
