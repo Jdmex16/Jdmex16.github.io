@@ -4,6 +4,7 @@
   body{
       margin: 0px;
       Font-family: sans-serif;
+      background-color: skyblue;
   }
   
   #grid-layout{
@@ -15,17 +16,19 @@
   #sidebar-content a{
       background-color: white;
       text-decoration:none;
+      margin: 20px 0px;
   }
   
   #sidebar-content{
+      text-align: center;
       grid-area: sidebar;
-      padding:18px;
-      Font-size: 12px
+      padding:20px 20px;
+      Font-size: 12px;
   }
   #sidebar-content h2{
       background-color: blueviolet;
       margin:0px;
-      padding:12px;
+      padding:10px 10px;
       color:white;
       font-size: 20px;
       font-variant: small-caps;
@@ -39,6 +42,9 @@
   }
   
   #main-content{
-      background-color: paleturquoise;
+      background-color: white;
       grid-area: content;
+      border: solid 2px black;
+      margin: 20px -12px;
+      padding: 20px 20px;
   }
