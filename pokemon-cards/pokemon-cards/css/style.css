@@ -1,0 +1,52 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 img{
+    width: 100%;
+    height: 300px;
+    border:solid 5px gold;
+
+}
+
+.card-style-3 {
+    width: 350px;
+    padding: 10px;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid gold 15px;
+    border-radius: 3%;
+}
+
+ .health {
+    display: flex;
+    font-size: 20px;
+    padding: 0px 250px;
+    
+}
+
+.details {
+    background-color: gold;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.description .bold{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.attack {
+    display: FLEX ;
+    width: 10px;
+}
