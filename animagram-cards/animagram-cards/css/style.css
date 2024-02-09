@@ -21,6 +21,17 @@
 }
 
 .animagram-footer {
+    display: flex;
     font-size: 23px;
+    max-width: 0px 10px;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.animagram-header {
+    display: flex;
+    font-size: 27px;
+    justify-content: space-between;
+    padding: 0px 30px;
 }
 
