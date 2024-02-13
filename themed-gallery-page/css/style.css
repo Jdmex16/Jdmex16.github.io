@@ -1,0 +1,44 @@
+*{
+    box-sizing:borderbox 
+}
+body {
+    margin:0px;
+    font-family: "Rubik Bubbles", system-ui;
+ }
+
+#hero-1 {
+    background-image: url(../images/Bg.jpg);
+    height: 115vh;
+    background-size: cover;
+    background-position: center RIGHT;
+    display: flex;
+    align-items: center top;
+    justify-content: flex-start;
+    color:white;
+    flex-direction: column;
+}
+
+#hero-1 h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+#hero-1 h2{
+font-size: 20px;
+text-align: center;
+}
+
+.horizontal-masonary-gallery {
+    display:Flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonary-gallery img {
+    height: 260px;
+    flex: 1;
+    object-fit: cover;
+    border: solid  transparent;
+    border-radius: 20%;
+    padding: 10px;
+}
