@@ -38,7 +38,5 @@ text-align: center;
     height: 260px;
     flex: 1;
     object-fit: cover;
-    border: solid  transparent;
-    border-radius: 20%;
     padding: 10px;
 }
