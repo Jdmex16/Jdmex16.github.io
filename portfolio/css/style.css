@@ -1,0 +1,74 @@
+* {
+    box-sizing:borderbox 
+}
+#hero-1 {
+    background-image: url(../images/Need.jpg);
+    height: 115vh;
+    background-size: cover;
+    background-position: center RIGHT;
+    display: flex;
+    align-items: center top;
+    justify-content: flex-start;
+    color:navy;
+    flex-direction: column;
+}
+
+
+#hero-1 h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#hero-1 h2{
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    }
+    
+ #hero-1 a {
+     font-size: 1.5vw;
+    display:inline-block;
+     background-color: black;
+    color: black;
+     text-decoration: none;
+     padding: 24px;
+     margin: 5vh 5vw 10vh 300px;
+        }
+ #hero-2 a {
+    font-size: 1.5vw;
+    display:inline-block;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 5px;
+
+   }
+  
+ 
+
+#hero- h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#hero-2 {
+font-size: 20px;
+text-align: center;
+}
+
+.horizontal-masonary-gallery {
+    display:Flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonary-gallery img {
+    height: 260px;
+    flex: 1;
+    object-fit: cover;
+    padding: 10px;
+}
+
