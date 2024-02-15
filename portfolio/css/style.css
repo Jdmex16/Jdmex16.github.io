@@ -54,7 +54,7 @@ text-align: center;
     height: 260px;
     flex: 1;
     object-fit: cover;
-    padding: 10px;
+    padding: 50px 0px;
     margin-top: 30px 0px 0px;
     
 }
@@ -77,12 +77,12 @@ text-align: center;
     text-decoration: none;
     padding: 24px;
     margin:430px 0px 0px;
-
     text-align: center;
      }
 
-     #hero-2 h1{
-        font-size: 50px;
-        text-align: center;
-        background-color: white;
+#hero-2 h1{
+    font-size: 50px;
+    text-align: center;
+     background-color: white;
     }   
+    
