@@ -7,7 +7,7 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
-.card-style-2{
+.card-style-2 {
     margin: 20px;
     text-align: center;
     background-color: white;
@@ -15,7 +15,7 @@
     padding: 50px 1px;
 }
 
-.card-style-2 img{
+.card-style-2 img {
     width: 250px;
     border-radius: 50%;
 }

@@ -41,7 +41,7 @@ body {
 }
 
 #navbar-index2{
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, blue, navy);
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -49,14 +49,21 @@ body {
 
 #navbar-index2 a {
     text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: white;
     padding: 24px;
 }
 
+#navbar-index2 h1{
+    padding: 35px;
+    color: aliceblue;
+    font-family: cursive;
+}
 
 #navbar-index2 .cta-button {
     background-color: white;
-    color: green;
+    color: black;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -66,14 +73,58 @@ body {
     margin-right: 24px;
 }
 
-#navbar-bottom-index2 {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+#navbar-index3 {
+    background: linear-gradient(to bottom, #e9804d, #fbd607);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#navbar-index3 a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+#navbar-index3 .cta-button {
+    background-color: white;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+
+#header-index3 {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-bottom3 {
+    background: linear-gradient(to bottom, orange, #F4831b);
     display: flex;
     justify-content: space-between;
 }
 
-#navbar-bottom-index2 a {
+#navbar-bottom3 a {
     text-decoration: none;
     color: white;
-    padding: 12px 36px;
+    padding: 10px 36px;
+}
+
+#navbar-index3 h3 {
+    color:white ;
+    padding: 0px 0px 80px;
+}
+
+#navbar-index3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar-index3 h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
