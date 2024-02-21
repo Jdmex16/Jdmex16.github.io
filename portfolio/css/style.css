@@ -44,23 +44,22 @@ font-size: 20px;
 text-align: center;
 }
 
-.horizontal-masonary-gallery {
-    display:Flex;
-    flex-wrap: wrap;
-    gap: 24px;
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    border: 10px solid navy;
+    gap:24px;
+
 }
 
-.horizontal-masonary-gallery img {
-    height: 260px;
-    flex: 1;
-    object-fit: cover;
-    padding: 50px 0px;
-    margin-top: 30px 0px 0px;
-    
+.basic-grid-gallery img {
+    width: 100%;
 }
+
 
 #hero-2 {
-    background-image: url(../images/Need.jpg);
+    background-color: lightblue; 
     height: 115vh;
     background-size: cover;
     background-position: center RIGHT;
