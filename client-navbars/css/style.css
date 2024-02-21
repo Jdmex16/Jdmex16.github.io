@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+
 }
 
 #navbar a {
@@ -34,13 +35,13 @@ body {
     padding: 12px 36px;
 }
 
-#navbar h1{
+#navbar h1 {
     color: #D4AF5E;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
 }
 
-#navbar-index2{
+#navbar-index2 {
     background: linear-gradient(to bottom, blue, navy);
     display: flex;
     justify-content: space-between;
@@ -49,13 +50,13 @@ body {
 
 #navbar-index2 a {
     text-decoration: none;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: white;
     padding: 24px;
 }
 
-#navbar-index2 h1{
+#navbar-index2 h1 {
     padding: 35px;
     color: aliceblue;
     font-family: cursive;
@@ -116,15 +117,16 @@ body {
     padding: 10px 36px;
 }
 
-#navbar-index3 h3 {
-    color:white ;
-    padding: 0px 0px 80px;
-}
-
-#navbar-index3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#topnav-1  {
+    background-color: #F4831b;
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #navbar-index3 h1 {
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
 }
+
+
