@@ -44,15 +44,6 @@ body {
         transform 0.5s;
 }
 
-/* #A1 {
-    font-size: 1.5vw;
-    border: solid black 2px;
-    border-radius: 20px;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 20vh 600px;
-    } */
-
 
  #card4 .card-content {
      opacity: 0;
@@ -70,14 +61,6 @@ body {
     transform: translateY(0px); 
     }
 
-/* #A2 ,#A3 {
-    font-size: 1.5vw;
-    border: solid black 2px;
-    border-radius: 20px;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 20vh 600px;
-        } */
 
 #card5 {
      position: relative;
