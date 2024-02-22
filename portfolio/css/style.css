@@ -24,14 +24,6 @@
     text-align: center;
     background-color: aliceblue;
     }
-    
- #A1 {
-    font-size: 1.5vw;
-    background-color:lightblue;
-    text-decoration: none;
-    padding: 24px;
-    text-align: center;
-     }
 
 #hero- h1{
     font-size: 50px;
@@ -70,18 +62,16 @@ text-align: center;
     flex-direction: column;
 }
 
-#A2 {
-    font-size: 1.5vw;
-    background-color:lightblue;
-    text-decoration: none;
-    padding: 24px;
-    margin:430px 0px 0px;
-    text-align: center;
-     }
-
 #hero-2 h1{
     font-size: 50px;
     text-align: center;
      background-color: white;
     }   
-    
+
+.buttons {
+    font-size: 1.5vw;
+    background-color:white;
+    text-decoration: none;
+    padding: 24px;
+    text-align: center;
+}
