@@ -44,14 +44,14 @@ body {
         transform 0.5s;
 }
 
-#A1 {
+/* #A1 {
     font-size: 1.5vw;
     border: solid black 2px;
     border-radius: 20px;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 20vh 600px;
-    }
+    } */
 
 
  #card4 .card-content {
@@ -70,18 +70,17 @@ body {
     transform: translateY(0px); 
     }
 
-#A2 ,#A3 {
+/* #A2 ,#A3 {
     font-size: 1.5vw;
     border: solid black 2px;
     border-radius: 20px;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 20vh 600px;
-        }
+        } */
 
 #card5 {
      position: relative;
-     display: flex;
      }
         
  #card5 .card-content {
@@ -111,11 +110,17 @@ body {
          background-color: plum;
  }
 
-#A4,#A5 {
+.buttons a {
+    display: inline-block;
     font-size: 1.5vw;
     border: solid black 2px;
     border-radius: 20px;
     text-decoration: none;
     padding: 24px;
-    margin: 1vh 1vw 20vh 600px;    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
