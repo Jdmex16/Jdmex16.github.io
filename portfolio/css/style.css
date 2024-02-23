@@ -1,5 +1,7 @@
-* {
-    box-sizing:borderbox 
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Playfair+Display:wght@400..900&family=Quattrocento:wght@400;700&display=swap');
+*{
+    box-sizing: borderbox;
 }
 #hero-1 {
     background-image: url(../images/Need.jpg);
@@ -7,33 +9,29 @@
     background-size: cover;
     background-position: center RIGHT;
     display: flex;
-    align-items: center top;
+    align-items: center;
     justify-content: flex-start;
-    color:navy;
+    color: navy;
     flex-direction: column;
 }
 
-#hero-1 h1{
+#hero-1 h1 {
     font-size: 50px;
     text-align: center;
     background-color: white;
+    font-family: "Playfair Display", serif;
 }
 
-#hero-1 h2{
+#hero-1 h2 {
     font-size: 20px;
     text-align: center;
     background-color: aliceblue;
-    }
-
-#hero- h1{
-    font-size: 50px;
-    text-align: center;
-}
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
 
 #hero-2 {
-font-size: 20px;
-text-align: center;
+       font-size: 20px;
+       text-align: center;
 }
 
 .basic-grid-gallery {
@@ -52,26 +50,77 @@ text-align: center;
 
 #hero-2 {
     background-color: lightblue; 
-    height: 115vh;
     background-size: cover;
     background-position: center RIGHT;
-    display: flex;
     align-items: center top;
     justify-content: flex-start;
     color:navy;
     flex-direction: column;
 }
 
-#hero-2 h1{
+#hero-2 h1 {
     font-size: 50px;
     text-align: center;
-     background-color: white;
+    background-color: white;
+    font-family: "Playfair Display", serif;
     }   
 
-.buttons {
-    font-size: 1.5vw;
-    background-color:white;
+
+.buttons a {
+    display: inline-block;
+    font-size: 18px;
+    background-color: white;
     text-decoration: none;
     padding: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttons {
     text-align: center;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 1 200px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card1:hover {
+    background-color: aliceblue;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card1:hover a {
+    background-color: plum;
+}
+
+.card-content  {
+    font-family: "Playfair Display", serif;
 }
