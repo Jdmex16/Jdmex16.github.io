@@ -449,20 +449,27 @@ body {
         "banner  banner  banner"
         "card-1  card-2  card-3"
         "aside   blog    blog"
-        "footer  footer  footer."
-        "bottom  bottom  bottom .";
+        "footer  footer  footer"
+        "bottom  bottom  bottom ";
            } 
      
     #header h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     #nav {
         flex-wrap: wrap;
     }    
+    #nav a {
+        flex:200px
+    }
+    
+    body {
+        background-color: blue;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    #grid-layout {
+    #grid-layout {}
 
 }
