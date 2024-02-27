@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#navbar {
+    background-color: #687769;
+    display: flex;
+    align-items: center;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    font-size: 1.5vh;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #109cb8, #0e5b96);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: black;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background:linear-gradient(to top, #109cb8, #0e5b96);;
+}
+
+#hero-1 {
+    background-image: url("../images/nonna2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px; 
+    
+}
+
+#hero-1 h1 {
+    font-size: 10vw;
+}
+
+#hero-1 p {
+    font-size: 2vh;
+}
+
+.img-contain img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.media-txt {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.img-contain {
+    flex: 1 350px;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+}
+
+.content a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, teal, #01482e);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+/*
+    Layout setup and configuration
+*/
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
