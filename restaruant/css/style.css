@@ -111,13 +111,11 @@ body {
 
 #footer-columns-navbar a {
     display: block;
-    padding: 8px 0px;
+    padding: 20px 0px;
 }
 
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
+#footer a i {
+    font-size: 40px;
 }
 
 .section {
@@ -126,7 +124,7 @@ body {
     justify-content: center;
     padding: 50px;
     width:max-content;
-    margin: -25rem auto 0 auto;
+    margin: 0rem auto 0 auto;
     align-items: center;
 }
 
@@ -159,10 +157,11 @@ body {
 }
 
 .card {
-    flex: 300px;
+    flex: 100px;
     border: 1.5px solid black;
-    margin: 24px;
-    padding: 24px;
+    margin: 50px;
+    
+    padding: 54px;
     border-radius: 12px;
     text-align: center;
     background-color: black;
@@ -196,3 +195,4 @@ body {
 #card1 p, h2 {
     color: white;
 }
+
