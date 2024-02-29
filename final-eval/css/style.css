@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unbounded:wght@200..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Unbounded", sans-serif;
+
+}
+
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    text-align: center;
+    margin: 0px auto; 
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 70px;
+    
+  }
+
+ .center-column h1, h2{
+    font-family: "Archivo Black", sans-serif;
+ } 
+
+ .buttons a {
+    display: inline-block;
+    font-size: 1.5vw;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 24px;
+    color: black;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.buttons a:hover {
+    background-color: aqua;
+}
