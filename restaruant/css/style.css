@@ -196,3 +196,19 @@ body {
     color: white;
 }
 
+#card2 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover a {
+    background-color: #687769;
+    box-shadow: 4px 4px 4px #cf373733;
+    transform: translateY(-4px);
+}
+
+#card2 {
+    background-color: #030101;
+}
