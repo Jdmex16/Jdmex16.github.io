@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -212,3 +212,40 @@ body {
 #card2 {
     background-color: #030101;
 }
+
+#hero-1  i,a {
+    font-family: "Bevan", serif;
+}
+
+#hero-1 h4 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.text p, .card p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hero-1 a {
+    color: aliceblue;
+}
+@media screen and (max-width: 480px) {
+
+body {
+    background-color: blue;
+}   
+
+#navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:5px
+}
+
+#footer {
+  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
+  grid-template-areas: "footer-columns-navbar";
+
+    }
+
+    }
