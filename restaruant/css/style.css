@@ -28,7 +28,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: #244f2d;
 }
 
 #navbar #logo {
@@ -68,7 +68,7 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background:linear-gradient(to top, #109cb8, #0e5b96);;
+    background: #244f2d;
 }
 
 #hero-1 {
@@ -126,6 +126,8 @@ body {
     width:max-content;
     margin: 0rem auto 0 auto;
     align-items: center;
+    border-radius: 12px;
+    border: solid 2px white;
 }
 
 .section h1 {
@@ -154,13 +156,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    min-height:650px;
 }
 
 .card {
     flex: 100px;
     border: 1.5px solid black;
     margin: 50px;
-    
     padding: 54px;
     border-radius: 12px;
     text-align: center;
@@ -244,8 +246,10 @@ body {
 #footer {
   grid-template-columns: 1fr;
   grid-template-columns: 100%;
-  grid-template-areas: "footer-columns-navbar";
-
+  grid-template-areas: "footer-columns-navbar"
     }
+  
+
+ }   
 
     }
