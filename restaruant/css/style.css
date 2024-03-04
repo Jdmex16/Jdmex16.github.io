@@ -156,7 +156,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    min-height:650px;
+}
+
+.card {
+    min-height:200px;
 }
 
 .card {
