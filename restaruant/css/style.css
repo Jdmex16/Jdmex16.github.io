@@ -234,6 +234,7 @@ body {
 #hero-1 a {
     color: aliceblue;
 }
+
 @media screen and (max-width: 480px) {
 
 body {
@@ -243,16 +244,24 @@ body {
 #navbar {
     flex-wrap: wrap;
     flex-direction: column;
-    gap:5px
+    gap:100px
 }
 
-#footer {
+#navabr {
+    flex: 200px;
+}
+
+#navbar {
   grid-template-columns: 1fr;
-  grid-template-columns: 100%;
-  grid-template-areas: "footer-columns-navbar"
+  grid-template-areas: "Header"
+  "navbar"
+  "card"
+  "footer"
+  "footer a"
+
     }
   
 
  }   
 
-    }
+    
